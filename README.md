@@ -12,5 +12,5 @@ ________________________________________________________________________________
 
 -c: nom du certificat 
 -p: profil d'approvisionnement 
--i: nom du fichier .ipa ! sans extension .ipa à la fin
+-i: nom du fichier .ipa ! sans extension .ipa à la fin 
 -e: ajouter d'autres nouvelles couches à resigner (optionnel) 
