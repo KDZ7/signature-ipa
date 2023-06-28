@@ -24,9 +24,9 @@ do
     case $opt in
         h)
             echo " exemple: "
-            echo ' ./resign.sh -c "Apple Development: Name (XXXXXXXXXX)" -p XXXXXXXXX.mobileprovision -i youtube '
+            echo ' ./resign.sh -c "Apple Development: Name (XXXXXXXXXX)" -p XXXXXXXXX.mobileprovision -i myfile '
             echo " exemple en cas de présence de nouvelles couches à resigner: "
-            echo ' ./resign.sh -c "Apple Development: Name (XXXXXXXXXX)" -p XXXXXXXXX.mobileprovision -i youtube -e "*.appex","*.dylib" '
+            echo ' ./resign.sh -c "Apple Development: Name (XXXXXXXXXX)" -p XXXXXXXXX.mobileprovision -i myfile -e "*.appex","*.dylib" '
             echo " -c: nom du certificat "
             echo " -p: profil d'approvisionnement "
             echo " -i: nom du fichier .ipa ! sans extension .ipa à la fin "
